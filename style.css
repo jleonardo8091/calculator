@@ -18,12 +18,8 @@ input[type="text"]{
     
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
-  
+
+
 
 input[type="button"] {
     width: 119px;
@@ -31,11 +27,18 @@ input[type="button"] {
     font-size: 62px;
     color: gray;
     font-family: 'Anton', sans-serif;
-    font-
 
-    
-    
+
   }
+
+  @media only screen and (max-width: 600px) {
+    input[type="button"] {
+        width: 50px;
+        height:50px;
+        font-size: 25px;
+    }
+  }
+
 
   .display{
       margin: 5px;
