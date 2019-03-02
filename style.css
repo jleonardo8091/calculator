@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One');
+
+.container{
+    margin: 0 auto;
+    padding: 50px;
+    width: 500px;
+    height: 500px;  
+    background-color: ;
+
+}
+
+input[type="text"]{
+    height: 60px;
+    width: 486px;
+    font-size: 62px;
+    font-family: 'Fjalla One', sans-serif;
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+
+input[type="button"] {
+    width: 119px;
+    height: 102px;
+    font-size: 62px;
+    color: gray;
+    font-family: 'Anton', sans-serif;
+    font-
+
+    
+    
+  }
+
+  .display{
+      margin: 5px;
+  }
+
+  .row1{
+    margin: 5px;
+  }
+  .row2{
+    margin: 5px;
+  }
+  .row3{
+    margin: 5px;
+  }
+  .row4{
+    margin: 5px;
+  }
